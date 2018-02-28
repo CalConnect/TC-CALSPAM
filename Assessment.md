@@ -2,7 +2,8 @@
 
 ## sending
 - Spammer use real calendaring infrastructure with good reputation to send calendar spam
-- they started with Google (2016) and are now sending from Yahoo (2017) - they might use more systems we did not see yet
+- first calendar spam seen was send with Google (2016) and current examples are send from Yahoo (2017)
+- they might use more systems
 - many receiver are within the used system (Yahoo<->Yahoo)
 
 ## content
