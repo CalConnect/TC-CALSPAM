@@ -15,6 +15,10 @@
 ## detection
 - still many calendar spam mails are not detected as spam
 
+## remediation challenges
+- events detected as spam during delivery - reject message? junk folder / quarantine equivalent for calendar?
+- events not detected until after delivery - send cancellation?  remove silently on behalf of users?
+
 ## outlook
 - attached ics will not correspond to mail body anymore, to be less detectable
 - recurrence
