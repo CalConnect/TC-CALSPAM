@@ -16,8 +16,14 @@
 - still many calendar spam mails are not detected as spam
 
 ## remediation challenges
-- events detected as spam during delivery - reject message? junk folder / quarantine equivalent for calendar?
-- events not detected until after delivery - send cancellation?  remove silently on behalf of users?
+- events detected as spam during delivery
+	- reject message
+	- junk folder in mail, but not put into calendar
+	- put into calendar but mark? quarantine equivalent for calendar?
+- events not detected until after delivery
+	- delete without cancellation on behalf of users
+	- send fbl for original mail if referent exists
+	- create and maintain organiser blacklist? on user or system level?
 
 ## outlook
 - attached ics will not correspond to mail body anymore, to be less detectable
