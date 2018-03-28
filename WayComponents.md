@@ -17,7 +17,7 @@
 - abuse detection for receiving email (network, mail header/structure, ...)
 - check email for spam pattern (organiser on white list, ...)
 - actions if potential spam detected? not accepting? spam folder? no interaction with calendar system. 
-- manual insert into calendar option in app/web app/...
+- manual insert into calendar option in app/web app/... for all events (those inserted automatically and events, where this is not done because of the mentioned reasons)
 
 ### interaction mail / calendar system
 - parse email for event
@@ -29,4 +29,10 @@
 - store information about how event was inserted into the users calendar? Mail ID?
 - delete option for unwanted events -> mark as spam
 - actions if spam is identified by user? Feedback loop if MailID and original mail is still available
-- 
+
+## other ways
+
+### subscribing to shared calendars containing malicious events
+- shared calendars could also include malicious events
+- single events can not be deleted if shared read-only
+- unsubscribing the specific calendar can solve the problem
