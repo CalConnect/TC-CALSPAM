@@ -1,0 +1,365 @@
+Original Message
+Message ID	<000000000000060b240568b1e11f@google.com>
+Created at:	Sat, Mar 31, 2018 at 4:21 AM (Delivered after 15 seconds)
+From:	lyaohua20@gmail.com
+To:	zjt@cpan.org
+Subject:	Invitation: Joint Venture @ Sat Mar 31, 2018 4:30pm - 5:30pm (ICT) (zjt@cpan.org)
+SPF:	SOFTFAIL with IP 207.171.7.185 Learn more
+DKIM:	'PASS' with domain gmail.com Learn more
+DMARC:	'PASS' Learn more
+
+
+Download Original	Copy to clipboard
+Delivered-To: xxxxxxxxxxxxxx@gmail.com
+Received: by 10.12.157.223 with SMTP id p31csp454522qvf;
+        Sat, 31 Mar 2018 02:21:32 -0700 (PDT)
+X-Google-Smtp-Source: AIpwx49aKd1oX6HKeH654rQ7MhJfD1S7RtqcfiiyZuO5wQk2Set7H61UZ90soQdec+qxfxIxusRw
+X-Received: by 10.237.61.55 with SMTP id g52mr3151357qtf.88.1522488092370;
+        Sat, 31 Mar 2018 02:21:32 -0700 (PDT)
+ARC-Seal: i=1; a=rsa-sha256; t=1522488092; cv=none;
+        d=google.com; s=arc-20160816;
+        b=IHYANRGxjIv9ZzxV7WhpoMx20qQh4PY2uPWKh9P0OTCSZD6YgHrppidMpPgcrd9qyz
+         /4qAyQhdP0lu1faFidyY7zqGkMy8I/mYK77oqLfF55Hwq6aKVn2TqEInO5WLHqRjBdzF
+         ph7uxDLh//MgJAHmwRjaRfznj4q4FVPDSA9dniTRzuYmX59JgD4nlX6YfCQkczFXxFII
+         2cHRiOq+jonEqEIHd98mTe2WlQmeVGRLSPsZq3rL4+50UzREFBdwJNpmGPT7Nz82yiil
+         YBXV/6bk6nY611Wh2gHdpFUccJfTPnlEaExUSFOITuh+Grw8D8sJVBuemD51D2rXY96K
+         xMaQ==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;
+        h=to:from:subject:date:message-id:sender:reply-to:mime-version
+         :dkim-signature:dkim-signature:arc-authentication-results;
+        bh=t71fZ8Yi7sfaqMM+o6VJbX4hER4VjHcypj2IknXXTNY=;
+        b=0GvToi9KMXZN/2nHEa/BdzuHGKQr/hQMoqdGAERDEID/v+QAB4rrMA241Q77OMZPqP
+         o4TvrpFg89BvsqhhhJL0m8hHGUSj44YaWQ1TMtPkEHWCxEZCPxPEqerzfXSJRxnlIsZj
+         VxnoYeBkflcxAqfnbOa0rGmB+jUQMGc+L82JzijisE8KH49v5bFlfZEVKlQwGoYXl0W6
+         PubvhPxJTexGHUa4aY/6EKNwtbfy7ySNHIvW8aZTYtfaYmYOyMZS6Ebt+xf3yVMEDeFB
+         W1pCzhySG+Brc9nwkojsMbQnioolMr24f77CAdTepDhjzLW/IgWKRzmmhu/iLtfYIJ52
+         Omlg==
+ARC-Authentication-Results: i=1; mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=OQpzzGJ+;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=Vztcf9+u;
+       spf=softfail (google.com: domain of transitioning lyaohua20@gmail.com does not designate 207.171.7.185 as permitted sender) smtp.mailfrom=lyaohua20@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Return-Path: <lyaohua20@gmail.com>
+Received: from mx3.develooper.com (mx3.develooper.com. [207.171.7.185])
+        by mx.google.com with ESMTPS id k3si3430799qkb.266.2018.03.31.02.21.31
+        for <xxxxxxxxxxxxxx@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Sat, 31 Mar 2018 02:21:32 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning lyaohua20@gmail.com does not designate 207.171.7.185 as permitted sender) client-ip=207.171.7.185;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@google.com header.s=20161025 header.b=OQpzzGJ+;
+       dkim=pass header.i=@gmail.com header.s=20161025 header.b=Vztcf9+u;
+       spf=softfail (google.com: domain of transitioning lyaohua20@gmail.com does not designate 207.171.7.185 as permitted sender) smtp.mailfrom=lyaohua20@gmail.com;
+       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com
+Received: from xx1.develooper.com (xx1.dev [10.0.100.115]) (using TLSv1 with cipher ADH-AES256-SHA (256/256 bits)) (No client certificate requested) by mx3.develooper.com (Postfix) with ESMTPS id 43F38D5B for <xxxxxxxxxxxxxx@gmail.com>; Sat, 31 Mar 2018 02:21:31 -0700 (PDT)
+Received: from localhost (xx1.develooper.com [127.0.0.1]) by localhost (Postfix) with ESMTP id 240EC120C47 for <xxxxxxxxxxxxxx@gmail.com>; Sat, 31 Mar 2018 02:21:31 -0700 (PDT)
+X-Spam-Checker-Version: SpamAssassin 3.3.1 (2010-03-16) on mx3.develooper.com
+X-Spam-Status: No, score=-2.0 required=6.0 tests=BAYES_00,DKIM_SIGNED, DKIM_VALID,DKIM_VALID_AU,FREEMAIL_FROM,HTML_MESSAGE,RCVD_IN_DNSWL_NONE, URIBL_BLOCKED autolearn=ham version=3.3.1
+Received: from xx1.develooper.com (xx1.develooper.com [127.0.0.1]) by localhost (Postfix) with SMTP id 2692B120C7C for <xxxxxxxxxxxxxx@gmail.com>; Sat, 31 Mar 2018 02:21:22 -0700 (PDT)
+X-CPAN.org: This message routed through the cpan.org mail forwarding service.
+  Please use PAUSE pause.perl.org to configure your delivery settings.
+Received: from mail-io0-f201.google.com (mail-io0-f201.google.com [209.85.223.201]) (using TLSv1 with cipher AES128-SHA (128/128 bits)) (No client certificate requested) by xx1.develooper.com (Postfix) with ESMTPS id 25FB466FFA for <zjt@cpan.org>; Sat, 31 Mar 2018 02:21:17 -0700 (PDT)
+Received: by mail-io0-f201.google.com with SMTP id y4so9704078iod.5
+        for <zjt@cpan.org>; Sat, 31 Mar 2018 02:21:17 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=google.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=t71fZ8Yi7sfaqMM+o6VJbX4hER4VjHcypj2IknXXTNY=;
+        b=OQpzzGJ+pn1f/sqQjMZwNwFmXDWUkHsEao4nIlZ1xQE2GIbMLnPcJ4RkgIy7bUqzAS
+         3F/YaeiStw9eLc/1aQQ1ERzerCKrUfj3/ODp8APKvoYC2YpOh0a3xrRlpKQR8sab+ZqQ
+         dRnwj+9yp9CvN3ikuwXqICAzT1SZ1JtifVyT7oGJZoQDz2xfwcGbwnIxKUnCGoRacpLL
+         vvToKMGVb4RUh0pD1WFafYXoxt8z4B1zUbdY03lDPkQGWvrsHY+5Tx/HKVk/FnIobe77
+         cFeiJwQpa7XXJ0SzkR1v2sptHZpovl3bS+zLBPSA4S+QD9mP14eg1y6FoJEIgP4WvafX
+         mF0g==
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:sender:message-id:date:subject:from:to;
+        bh=t71fZ8Yi7sfaqMM+o6VJbX4hER4VjHcypj2IknXXTNY=;
+        b=Vztcf9+uHcMWHRlE4V3LJjjI3goBHfdai0fjI0MqtyJhriPONY5X7pWbcdN37T80Fj
+         38Fi6c02zila2h4wAPFOha//muBPwxMukYbuHLhwwvVzO1a59gJioz3WAGEpysUEDNuk
+         ZmEVA3obFub8DfTr5v5RVUyPncrJw9pOL/cSuQFemZKwon91wc/Nrdwe6ufJqwppOiU6
+         99xW6nxIsWc/k5InCDy1GPx+3oZzJRNraH8O00LOGE3vSspgxBIYeb8Eoc+/cy/ghls1
+         z9h2eSCzqMeRzVPJNmsuCNy55vrF3hcJGp2S9zdoaYjM5jw8hPOt86jMDue5SpZVjDms
+         pnVw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:sender:message-id:date
+         :subject:from:to;
+        bh=t71fZ8Yi7sfaqMM+o6VJbX4hER4VjHcypj2IknXXTNY=;
+        b=nl8pY3q7qbeoLSqJQyhRtvNZPviKd0n5cneRpUl4MV4MvnN/5uoSwkpWlzhw9G3A/k
+         zQOZGXFcqa9tlOEaO+SWGOyCZ8uJoofD1tRbf1vyWU/bxpHeYioypyDX3GBAK+2E1Cas
+         RM4TV6FZliyn0Kr+WwEoB+mxiuPuyU9dsEqvN0ctsg6nBq2GehFqFl9lOdk+JJoMeFpm
+         3tWR/vOTHMb0rkrSGgQgHBilPJlDOQ9VnozwVl58KBu49/n/KOs8GiTSsumFxDw0EQbl
+         qkiAqx9KzfKFVownSHNhdEqFF9A1P0xbcmUt/njTpu2bRLnUyE52W0RLjEbDTqebFW3d
+         6VUQ==
+X-Gm-Message-State: AElRT7Fc7vzpjAyJlc+IOLfHNFK9mIkwRMnLTouxCumnXmWWDXVvUBbs G1njkTsNErr0ESBebm60nB+4UPfhpaPNbycjEdGb
+MIME-Version: 1.0
+X-Received: by 2002:a24:99c4:: with SMTP id a187-v6mr2577643ite.11.1522488077321; Sat, 31 Mar 2018 02:21:17 -0700 (PDT)
+Reply-To: lyaohua20@gmail.com
+Sender: Google Calendar <calendar-notification@google.com>
+Message-ID: <000000000000060b240568b1e11f@google.com>
+Date: Sat, 31 Mar 2018 09:21:17 +0000
+Subject: Invitation:
+  Joint Venture
+  @ Sat Mar 31, 2018 4:30pm - 5:30pm (ICT) (zjt@cpan.org)
+From: lyaohua20@gmail.com
+To: zjt@cpan.org
+Content-Type: multipart/mixed; boundary="000000000000060b110568b1e11e"
+X-PMX-Version: 5.6.1.2065439, Antispam-Engine: 2.7.2.376379, Antispam-Data: 2018.3.31.91216
+X-PMX-Spam: Gauge=XI, Probability=11%, Report=' TO_IN_SUBJECT 0.5, HTML_70_90 0.1, HTML_FONT_INVISIBLE 0.1, INVOICE_ATTACHMENT 0.1, BODYTEXTH_SIZE_10000_LESS 0, BODYTEXTH_SIZE_3000_MORE 0, BODYTEXTP_SIZE_3000_LESS 0, BODY_SIZE_10000_PLUS 0, DKIM_SIGNATURE 0, ECARD_KNOWN_DOMAINS 0, NO_REAL_NAME 0, REPLYTO_SAMEAS_FROM 0, SPF_PASS 0, URI_WITH_PATH_ONLY 0, WEBMAIL_SOURCE 0, __ANY_URI 0, __ATTACHMENT_SIZE_0_10K 0, __CP_URI_IN_BODY 0, __CT 0, __CTYPE_HAS_BOUNDARY 0, __CTYPE_MULTIPART 0, __CTYPE_MULTIPART_MIXED 0, __DQ_NEG_HEUR 0, __DQ_NEG_IP 0, __FRAUD_COMMON 0, __FRAUD_INTRO 0, __FRAUD_INYOURCOUNTRY 0, __FRAUD_WEBMAIL 0, __FRAUD_WEBMAIL_FROM 0, __FRAUD_WEBMAIL_REPLYTO 0, __FROM_GMAIL 0, __HAS_ATTACHMENT 0, __HAS_ATTACHMENT1 0, __HAS_ATTACHMENT2 0, __HAS_FROM 0, __HAS_HTML 0, __HAS_MSGID 0, __HAS_REPLYTO 0, __HELO_GMAIL 0, __HEX28_LC_BOUNDARY 0, __HTML_AHREF_TAG 0, __HTML_BOLD 0, __HTML_TAG_DIV 0, __HTML_TAG_TABLE 0, __HTTPS_URI 0, __INT_PROD_LOC 0, __INVOICE_MULTILINGUAL 0, __MIME_HTML 0, __MIME_TEXT_H 0, __MIME_TEXT_H1 0, __MIME_TEXT_H2 0, __MIME_TEXT_P 0, __MIME_TEXT_P1 0, __MIME_TEXT_P2 0, __MIME_VERSION 0, __MULTIPLE_URI_HTML 0, __MULTIPLE_URI_TEXT 0, __PHISH_SPEAR_GREETING 0, __RDNS_GMAIL 0, __REPLYTO_SAMEAS_FROM 0, __REPLYTO_SAMEAS_FROM_ACC 0, __REPLYTO_SAMEAS_FROM_ADDY 0, __REPLYTO_SAMEAS_FROM_DOMAIN 0, __SANE_MSGID 0, __STOCK_PHRASE_7 0, __STOCK_PHRASE_8 0, __TO_IN_SUBJECT2 0, __TO_MALFORMED_2 0, __TO_NO_NAME 0, __URI_IN_BODY 0, __URI_NOT_IMG 0, __URI_NS , __URI_WITH_PATH 0, __YOUTUBE_MSGID 0, __YOUTUBE_RCVD 0, __zen.spamhaus.org_ERROR '
+
+--000000000000060b110568b1e11e
+Content-Type: multipart/alternative; boundary="000000000000060b0e0568b1e11c"
+
+--000000000000060b0e0568b1e11c
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+WW91IGhhdmUgYmVlbiBpbnZpdGVkIHRvIHRoZSBmb2xsb3dpbmcgZXZlbnQuDQoNClRpdGxlOiAg
+Sm9pbnQgVmVudHVyZQ0KRGVhciBDb2xsZWFndWUsTWF5IEkgZXhwcmVzcyBteSBpbnRlcmVzdCB0
+byBlc3RhYmxpc2ggYSBKb2ludCBWZW50dXJlIGFuZCAgDQppbnZlc3RtZW50IHBhcnRuZXJzaGlw
+IHdpdGggeW91IGlmIHlvdSBhcmUgaW50ZXJlc3RlZC4gSSBhbSBMdSBZYW9odWEsICANCk91dHNp
+ZGUgRGlyZWN0b3IgLSBDaGluYSBOYXRpb25hbCBQZXRyb2xldW0gQ29ycG9yYXRpb24gQmVpamlu
+ZyBQLlIgQ2hpbmEsICANCnRoZSBsYXJnZXN0IG9mZnNob3JlIG9pbCBhbmQgZ2FzIHByb2R1Y2Vy
+IGluIENoaW5hIGFuZCBhIG1lZ2EgZ292ZXJubWVudCAgDQpvd25lZCBjb21wYW55LiBZb3UgbWF5
+IGNoZWNrIG15IHByb2ZpbGUgb24gb3VyIHBhZ2UuSW4gYSBudXRzaGVsbCwgSSBhbSAgDQp3aWxs
+aW5nIHRvIGRpc2N1c3MgdGhlIHBvc3NpYmlsaXR5IG9mIGVzdGFibGlzaGluZyB0aGlzIGNvb3Bl
+cmF0aW9uIGluIHlvdXIgIA0KY291bnRyeS4gSSB3aWxsIGJlIHBsZWFzZWQgdG8gZXhwbGFpbiBt
+eSBpbnZlc3RtZW50IGlkZWFzIGluIGRldGFpbC5Nb3N0ICANCkltcG9ydGFudGx5LCBJIHdhbnQg
+b3VyIHBvc3NpYmxlIGZ1dHVyZSBidXNpbmVzcyB0byBiZSBjYXJyaWVkIG91dCBsZWdhbGx5ICAN
+CmFuZCB0cmFuc3BhcmVudGx5LlJlZ2FyZHMtLS0tLS0tLS1MdSBZYW9odWFPdXRzaWRlIERpcmVj
+dG9yQ2hpbmEgTmF0aW9uYWwgIA0KUGV0cm9sZXVtIENvcnBvcmF0aW9uOSBEb25nemhpbWVuIE5v
+cnRoIFN0cmVldEJlaWppbmcsIC0tIDEwMDAwNw0KV2hlbjogU2F0IE1hciAzMSwgMjAxOCA0OjMw
+cG0g4oCTIDU6MzBwbSBCYW5na29rDQpXaGVyZTogQ2hpbmENCkNhbGVuZGFyOiB6anRAY3Bhbi5v
+cmcNCldobzoNCiAgICAgKEd1ZXN0IGxpc3QgaGFzIGJlZW4gaGlkZGVuIGF0IG9yZ2FuaXplcidz
+IHJlcXVlc3QpDQoNCkV2ZW50IGRldGFpbHM6ICANCmh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2Fs
+ZW5kYXIvZXZlbnQ/YWN0aW9uPVZJRVcmZWlkPU4zUXdNRGx2YnpVellUQnVZbkpzYzJack9EQnJi
+WEIxZFdrZ2VtcDBRR053WVc0dWIzSm4mdG9rPU1Ua2piSGxoYjJoMVlUSXdRR2R0WVdsc0xtTnZi
+VGd6WWpkak9UY3lPRGMwTjJNeVlUQTNZVEE1T1RNNFpUWTFNRGd4Tm1Vek1qRmxaRFl4WTJNJmN0
+ej1Bc2lhJTJGQmFuZ2tvayZobD1lbiZlcz0wDQoNCkludml0YXRpb24gZnJvbSBHb29nbGUgQ2Fs
+ZW5kYXI6IGh0dHBzOi8vd3d3Lmdvb2dsZS5jb20vY2FsZW5kYXIvDQoNCllvdSBhcmUgcmVjZWl2
+aW5nIHRoaXMgY291cnRlc3kgZW1haWwgYXQgdGhlIGFjY291bnQgemp0QGNwYW4ub3JnIGJlY2F1
+c2UgIA0KeW91IGFyZSBhbiBhdHRlbmRlZSBvZiB0aGlzIGV2ZW50Lg0KDQpUbyBzdG9wIHJlY2Vp
+dmluZyBmdXR1cmUgdXBkYXRlcyBmb3IgdGhpcyBldmVudCwgZGVjbGluZSB0aGlzIGV2ZW50LiAg
+DQpBbHRlcm5hdGl2ZWx5IHlvdSBjYW4gc2lnbiB1cCBmb3IgYSBHb29nbGUgYWNjb3VudCBhdCAg
+DQpodHRwczovL3d3dy5nb29nbGUuY29tL2NhbGVuZGFyLyBhbmQgY29udHJvbCB5b3VyIG5vdGlm
+aWNhdGlvbiBzZXR0aW5ncyBmb3IgIA0KeW91ciBlbnRpcmUgY2FsZW5kYXIuDQoNCkZvcndhcmRp
+bmcgdGhpcyBpbnZpdGF0aW9uIGNvdWxkIGFsbG93IGFueSByZWNpcGllbnQgdG8gbW9kaWZ5IHlv
+dXIgUlNWUCAgDQpyZXNwb25zZS4gTGVhcm4gbW9yZSBhdCAgDQpodHRwczovL3N1cHBvcnQuZ29v
+Z2xlLmNvbS9jYWxlbmRhci9hbnN3ZXIvMzcxMzUjZm9yd2FyZGluZw0K
+--000000000000060b0e0568b1e11c
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<span itemscope itemtype=3D"http://schema.org/InformAction"><span style=3D"=
+display:none" itemprop=3D"about" itemscope itemtype=3D"http://schema.org/Pe=
+rson"><meta itemprop=3D"description" content=3D"Invitation from lyaohua20@g=
+mail.com"/></span><span itemprop=3D"object" itemscope itemtype=3D"http://sc=
+hema.org/Event"><div style=3D""><table cellspacing=3D"0" cellpadding=3D"8" =
+border=3D"0" summary=3D"" style=3D"width:100%;font-family:Arial,Sans-serif;=
+border:1px Solid #ccc;border-width:1px 2px 2px 1px;background-color:#fff;">=
+<tr><td><meta itemprop=3D"eventStatus" content=3D"http://schema.org/EventSc=
+heduled"/><div style=3D"padding:2px"><span itemprop=3D"publisher" itemscope=
+ itemtype=3D"http://schema.org/Organization"><meta itemprop=3D"name" conten=
+t=3D"Google Calendar"/></span><meta itemprop=3D"eventId/googleCalendar" con=
+tent=3D"7t009oo53a0nbrlsfk80kmpuui"/><div style=3D"float:right;font-weight:=
+bold;font-size:13px"> <a href=3D"https://www.google.com/calendar/event?acti=
+on=3DVIEW&amp;eid=3DN3QwMDlvbzUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3Jn&am=
+p;tok=3DMTkjbHlhb2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDg=
+xNmUzMjFlZDYxY2M&amp;ctz=3DAsia%2FBangkok&amp;hl=3Den&amp;es=3D0" style=3D"=
+color:#20c;white-space:nowrap" itemprop=3D"url">more details &raquo;</a><br=
+></div><h3 style=3D"padding:0 0 6px 0;margin:0;font-family:Arial,Sans-serif=
+;font-size:16px;font-weight:bold;color:#222"><span itemprop=3D"name"> Joint=
+ Venture </span></h3><table cellpadding=3D"0" cellspacing=3D"0" border=3D"0=
+" summary=3D"Event details"><tr><td style=3D"padding:0 1em 10px 0;font-fami=
+ly:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;width:90px=
+" valign=3D"top"><div><i style=3D"font-style:normal">When</i></div></td><td=
+ style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:13px;c=
+olor:#222" valign=3D"top"><div style=3D"text-indent:-1px"><time itemprop=3D=
+"startDate" datetime=3D"20180331T093000Z"></time><time itemprop=3D"endDate"=
+ datetime=3D"20180331T103000Z"></time>Sat Mar 31, 2018 4:30pm =E2=80=93 5:3=
+0pm <span style=3D"color:#888">Bangkok</span></div></td></tr><tr><td style=
+=3D"padding:0 1em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:=
+#888;white-space:nowrap;width:90px" valign=3D"top"><div><i style=3D"font-st=
+yle:normal">Where</i></div></td><td style=3D"padding-bottom:10px;font-famil=
+y:Arial,Sans-serif;font-size:13px;color:#222" valign=3D"top"><div style=3D"=
+text-indent:-1px"><span itemprop=3D"location" itemscope itemtype=3D"http://=
+schema.org/Place"><span itemprop=3D"name" class=3D"notranslate">China</span=
+><span dir=3D"ltr"> (<a href=3D"https://maps.google.com/maps?q=3DChina&amp;=
+hl=3Den" style=3D"color:#20c;white-space:nowrap" target=3D"_blank" itemprop=
+=3D"map">map</a>)</span></span></div></td></tr><tr><td style=3D"padding:0 1=
+em 10px 0;font-family:Arial,Sans-serif;font-size:13px;color:#888;white-spac=
+e:nowrap;width:90px" valign=3D"top"><div><i style=3D"font-style:normal">Cal=
+endar</i></div></td><td style=3D"padding-bottom:10px;font-family:Arial,Sans=
+-serif;font-size:13px;color:#222" valign=3D"top"><div style=3D"text-indent:=
+-1px">zjt@cpan.org</div></td></tr><tr><td style=3D"padding:0 1em 10px 0;fon=
+t-family:Arial,Sans-serif;font-size:13px;color:#888;white-space:nowrap;widt=
+h:90px" valign=3D"top"><div><i style=3D"font-style:normal">Who</i></div></t=
+d><td style=3D"padding-bottom:10px;font-family:Arial,Sans-serif;font-size:1=
+3px;color:#222" valign=3D"top">(Guest list has been hidden at organizer's r=
+equest)</td></tr></table><div style=3D"padding-bottom:15px;font-family:Aria=
+l,Sans-serif;font-size:13px;color:#222;white-space:pre-wrap!important;white=
+-space:-moz-pre-wrap!important;white-space:-pre-wrap!important;white-space:=
+-o-pre-wrap!important;white-space:pre;word-wrap:break-word"><span><span>Dea=
+r Colleague,</span><br><br><span>May I express my interest to establish a J=
+oint Venture and investment partnership with you if you are interested. I a=
+m Lu Yaohua, Outside Director - China National Petroleum Corporation Beijin=
+g P.R China, the largest offshore oil and gas producer in China and a mega =
+government owned company. You may check my profile on our page.</span><br><=
+br><span>In a nutshell, I am willing to discuss the possibility of establis=
+hing this cooperation in your country. I will be pleased to explain my inve=
+stment ideas in detail.</span><br><br><span>Most Importantly, I want our po=
+ssible future business to be carried out legally and transparently.</span><=
+br><br><br><span>Regards</span><br><br><span>---------</span><br><span>Lu Y=
+aohua</span><br><span>Outside Director</span><br><span>China National Petro=
+leum Corporation</span><br><span>9 Dongzhimen North Street</span><br><span>=
+Beijing, -- 100007</span></span><meta itemprop=3D"description" content=3D"D=
+ear Colleague,May I express my interest to establish a Joint Venture and in=
+vestment partnership with you if you are interested. I am Lu Yaohua, Outsid=
+e Director - China National Petroleum Corporation Beijing P.R China, the la=
+rgest offshore oil and gas producer in China and a mega government owned co=
+mpany. You may check my profile on our page.In a nutshell, I am willing to =
+discuss the possibility of establishing this cooperation in your country. I=
+ will be pleased to explain my investment ideas in detail.Most Importantly,=
+ I want our possible future business to be carried out legally and transpar=
+ently.Regards---------Lu YaohuaOutside DirectorChina National Petroleum Cor=
+poration9 Dongzhimen North StreetBeijing, -- 100007"/></div></div><p style=
+=3D"color:#222;font-size:13px;margin:0"><span style=3D"color:#888">Going?&n=
+bsp;&nbsp;&nbsp;</span><wbr><strong><span itemprop=3D"potentialaction" item=
+scope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendanc=
+e" content=3D"http://schema.org/RsvpAttendance/Yes"/><span itemprop=3D"hand=
+ler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><link itemp=
+rop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=3D=
+"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DN3QwMDlvb=
+zUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3Jn&amp;rst=3D1&amp;tok=3DMTkjbHlhb=
+2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDgxNmUzMjFlZDYxY2M&=
+amp;ctz=3DAsia%2FBangkok&amp;hl=3Den&amp;es=3D0" style=3D"color:#20c;white-=
+space:nowrap" itemprop=3D"url">Yes</a></span></span><span style=3D"margin:0=
+ 0.4em;font-weight:normal"> - </span><span itemprop=3D"potentialaction" ite=
+mscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"attendan=
+ce" content=3D"http://schema.org/RsvpAttendance/Maybe"/><span itemprop=3D"h=
+andler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><link it=
+emprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a href=
+=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DN3QwMD=
+lvbzUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3Jn&amp;rst=3D3&amp;tok=3DMTkjbH=
+lhb2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDgxNmUzMjFlZDYxY=
+2M&amp;ctz=3DAsia%2FBangkok&amp;hl=3Den&amp;es=3D0" style=3D"color:#20c;whi=
+te-space:nowrap" itemprop=3D"url">Maybe</a></span></span><span style=3D"mar=
+gin:0 0.4em;font-weight:normal"> - </span><span itemprop=3D"potentialaction=
+" itemscope itemtype=3D"http://schema.org/RsvpAction"><meta itemprop=3D"att=
+endance" content=3D"http://schema.org/RsvpAttendance/No"/><span itemprop=3D=
+"handler" itemscope itemtype=3D"http://schema.org/HttpActionHandler"><link =
+itemprop=3D"method" href=3D"http://schema.org/HttpRequestMethod/GET"/><a hr=
+ef=3D"https://www.google.com/calendar/event?action=3DRESPOND&amp;eid=3DN3Qw=
+MDlvbzUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3Jn&amp;rst=3D2&amp;tok=3DMTkj=
+bHlhb2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDgxNmUzMjFlZDY=
+xY2M&amp;ctz=3DAsia%2FBangkok&amp;hl=3Den&amp;es=3D0" style=3D"color:#20c;w=
+hite-space:nowrap" itemprop=3D"url">No</a></span></span></strong>&nbsp;&nbs=
+p;&nbsp;&nbsp;<wbr><a href=3D"https://www.google.com/calendar/event?action=
+=3DVIEW&amp;eid=3DN3QwMDlvbzUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3Jn&amp;=
+tok=3DMTkjbHlhb2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDgxN=
+mUzMjFlZDYxY2M&amp;ctz=3DAsia%2FBangkok&amp;hl=3Den&amp;es=3D0" style=3D"co=
+lor:#20c;white-space:nowrap" itemprop=3D"url">more options &raquo;</a></p><=
+/td></tr><tr><td style=3D"background-color:#f6f6f6;color:#888;border-top:1p=
+x Solid #ccc;font-family:Arial,Sans-serif;font-size:11px"><p>Invitation fro=
+m <a href=3D"https://www.google.com/calendar/" target=3D"_blank" style=3D""=
+>Google Calendar</a></p><p>You are receiving this courtesy email at the acc=
+ount zjt@cpan.org because you are an attendee of this event.</p><p>To stop =
+receiving future updates for this event, decline this event. Alternatively =
+you can sign up for a Google account at https://www.google.com/calendar/ an=
+d control your notification settings for your entire calendar.</p><p>Forwar=
+ding this invitation could allow any recipient to modify your RSVP response=
+. <a href=3D"https://support.google.com/calendar/answer/37135#forwarding">L=
+earn More</a>.</p></td></tr></table></div></span></span>
+--000000000000060b0e0568b1e11c
+Content-Type: text/calendar; charset="UTF-8"; method=REQUEST
+Content-Transfer-Encoding: 7bit
+
+BEGIN:VCALENDAR
+PRODID:-//Google Inc//Google Calendar 70.9054//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:REQUEST
+BEGIN:VEVENT
+DTSTART:20180331T093000Z
+DTEND:20180331T103000Z
+DTSTAMP:20180331T092117Z
+ORGANIZER;CN=lyaohua20@gmail.com:mailto:lyaohua20@gmail.com
+UID:7t009oo53a0nbrlsfk80kmpuui@google.com
+ATTENDEE;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;PARTSTAT=NEEDS-ACTION;RSVP=
+ TRUE;CN=zjt@cpan.org;X-NUM-GUESTS=0:mailto:zjt@cpan.org
+CREATED:20180331T092115Z
+DESCRIPTION:<span style="color: rgb(34\, 34\, 34)\; font-family: arial\, sa
+ ns-serif\; font-size: small\; background-color: rgb(255\, 255\, 255)\;">Dea
+ r Colleague\,</span><br style="color: rgb(34\, 34\, 34)\; font-family: aria
+ l\, sans-serif\; font-size: small\;"><br style="color: rgb(34\, 34\, 34)\;
+ font-family: arial\, sans-serif\; font-size: small\;"><span style="color: r
+ gb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size: small\; bac
+ kground-color: rgb(255\, 255\, 255)\;">May I express my interest to establi
+ sh a Joint Venture and investment partnership with you if you are intereste
+ d. I am Lu Yaohua\, Outside Director - China National Petroleum Corporation
+  Beijing P.R China\, the largest offshore oil and gas producer in China and
+  a mega government owned company. You may check my profile on our page.</sp
+ an><br style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\;
+ font-size: small\;"><br style="color: rgb(34\, 34\, 34)\; font-family: aria
+ l\, sans-serif\; font-size: small\;"><span style="color: rgb(34\, 34\, 34)\
+ ; font-family: arial\, sans-serif\; font-size: small\; background-color: rg
+ b(255\, 255\, 255)\;">In a nutshell\, I am willing to discuss the possibili
+ ty of establishing this cooperation in your country. I will be pleased to e
+ xplain my investment ideas in detail.</span><br style="color: rgb(34\, 34\,
+  34)\; font-family: arial\, sans-serif\; font-size: small\;"><br style="col
+ or: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size: small\
+ ;"><span style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\
+ ; font-size: small\; background-color: rgb(255\, 255\, 255)\;">Most Importa
+ ntly\, I want our possible future business to be carried out legally and tr
+ ansparently.</span><br style="color: rgb(34\, 34\, 34)\; font-family: arial
+ \, sans-serif\; font-size: small\;"><br style="color: rgb(34\, 34\, 34)\; f
+ ont-family: arial\, sans-serif\; font-size: small\;"><br style="color: rgb(
+ 34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size: small\;"><span
+  style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-s
+ ize: small\; background-color: rgb(255\, 255\, 255)\;">Regards</span><br st
+ yle="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size
+ : small\;"><br style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-
+ serif\; font-size: small\;"><span style="color: rgb(34\, 34\, 34)\; font-fa
+ mily: arial\, sans-serif\; font-size: small\; background-color: rgb(255\, 2
+ 55\, 255)\;">---------</span><br style="color: rgb(34\, 34\, 34)\; font-fam
+ ily: arial\, sans-serif\; font-size: small\;"><span style="color: rgb(34\,
+ 34\, 34)\; font-family: arial\, sans-serif\; font-size: small\; background-
+ color: rgb(255\, 255\, 255)\;">Lu Yaohua</span><br style="color: rgb(34\, 3
+ 4\, 34)\; font-family: arial\, sans-serif\; font-size: small\;"><span style
+ ="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size: s
+ mall\; background-color: rgb(255\, 255\, 255)\;">Outside Director</span><br
+  style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-s
+ ize: small\;"><span style="color: rgb(34\, 34\, 34)\; font-family: arial\,
+ sans-serif\; font-size: small\; background-color: rgb(255\, 255\, 255)\;">C
+ hina National Petroleum Corporation</span><br style="color: rgb(34\, 34\, 3
+ 4)\; font-family: arial\, sans-serif\; font-size: small\;"><span style="col
+ or: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; font-size: small\
+ ; background-color: rgb(255\, 255\, 255)\;">9 Dongzhimen North Street</span
+ ><br style="color: rgb(34\, 34\, 34)\; font-family: arial\, sans-serif\; fo
+ nt-size: small\;"><span style="color: rgb(34\, 34\, 34)\; font-family: aria
+ l\, sans-serif\; font-size: small\; background-color: rgb(255\, 255\, 255)\
+ ;">Beijing\, -- 100007</span>\n\n-::~:~::~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:
+ ~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-\nPlease do not edit this sect
+ ion of the description.\n\nView your event at https://www.google.com/calend
+ ar/event?action=VIEW&eid=N3QwMDlvbzUzYTBuYnJsc2ZrODBrbXB1dWkgemp0QGNwYW4ub3
+ Jn&tok=MTkjbHlhb2h1YTIwQGdtYWlsLmNvbTgzYjdjOTcyODc0N2MyYTA3YTA5OTM4ZTY1MDgx
+ NmUzMjFlZDYxY2M&ctz=Asia%2FBangkok&hl=en&es=1.\n-::~:~::~:~:~:~:~:~:~:~:~:~
+ :~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~:~::~:~::-
+LAST-MODIFIED:20180331T092115Z
+LOCATION:China
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY: Joint Venture
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
+
+--000000000000060b0e0568b1e11c--
+--000000000000060b110568b1e11e
+Content-Type: application/ics; name="invite.ics"
+Content-Disposition: attachment; filename="invite.ics"
+Content-Transfer-Encoding: base64
+
+
+--000000000000060b110568b1e11e--
