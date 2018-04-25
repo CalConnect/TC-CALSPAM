@@ -20,10 +20,12 @@
 	- reject message
 	- junk folder in mail, but not put into calendar
 	- put into calendar but mark? quarantine equivalent for calendar? 
+	- remove alarms and recurrence? 
 - events not detected until after delivery
 	- delete without cancellation on behalf of users
 	- send fbl for original mail if reference exists (Mail ID?)
 	- create and maintain organiser blacklist? on user or system level?
+	- remove alarms and recurrence? 
 
 ## outlook
 - attached ics will not correspond to mail body anymore, to be less detectable
