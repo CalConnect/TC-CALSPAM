@@ -1,7 +1,7 @@
 # Best practices for mitigating ways calendar spam occurs
 
 ## Mitigating spam on source system
-User accounts could be compromised by malicious actors or free hosting providers could be abused with bots signing up for free accounts.  These accounts are then used to create calendar spam events.  The calendar system uses templating to send an email invitation with the calendar event attached and the event content will also be inserted into body of the email.  The "source" hosting provider can take steps to detect and mitigate this internal abuse on the calendar system and the email system.
+User accounts could be compromised by malicious actors or free hosting providers could be abused with bots signing up for free accounts. These accounts are then used to create calendar spam events. The calendar system uses templating to send an email invitation with the calendar event attached and the event content will also be inserted into body of the email.  The "source" hosting provider can take steps to detect and mitigate this internal abuse on the calendar system and the email system.
 
 ### using calendar systems
 - abuse detection for frontend usage (network, user agent, click rate/path, ...)
@@ -14,7 +14,7 @@ User accounts could be compromised by malicious actors or free hosting providers
 - actions if potential spam detected? not sending (reject? discard?) using black mailer for sending? 
 
 ## Mitigating spam on receiving system
-Spam events are typically recieved by recipients in two ways: via email from an external system, or directly from another account (bot or compromised) within the calendar system.  Events from internal accounts may propogate natively within the calendar system or they may propogate over email, depending on implementation.  The "recieving" hosting provider can take steps to detect and mitigate this "external" abuse on the calendar system and the email system.
+Spam events are typically received by recipients in two ways: via email from an external system, or directly from another account (bot or compromised) within the calendar system.  Events from internal accounts may propagate natively within the calendar system or they may propagate over email, depending on implementation.  The "receiving" hosting provider can take steps to detect and mitigate this "external" abuse on the calendar system and the email system.
 
 ### mail system
 - abuse detection for receiving email (network, mail header/structure, ...)
